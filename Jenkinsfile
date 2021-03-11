@@ -34,7 +34,7 @@ pipeline {
       agent any
       steps {
       
-        sh 'docker run -d -p 9393:8080 --name myapp spring-petclinic:latest'
+        sh 'docker run -d -p 9393:8080  husseinfaresinfosysta/spring-petclinic'
       }
     }
   }
