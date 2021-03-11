@@ -10,7 +10,7 @@ public class PetClinicApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World - v7!";
+        return "Hello World - v9!";
     }
 
     public static void main(String[] args) throws Exception {
